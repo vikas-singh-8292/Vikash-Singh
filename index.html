@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vikash Singh | React Native Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif;scroll-behavior:smooth}
+body{background:#050816;color:#fff;overflow-x:hidden}
+.bg{position:fixed;inset:0;background:
+radial-gradient(circle at 20% 20%,rgba(37,99,235,.2),transparent 25%),
+radial-gradient(circle at 80% 70%,rgba(124,58,237,.2),transparent 25%);z-index:-1}
+nav{position:fixed;top:0;width:100%;padding:18px 8%;display:flex;justify-content:space-between;background:rgba(0,0,0,.4);backdrop-filter:blur(15px);z-index:999}
+.logo{font-size:30px;font-weight:700;color:#60a5fa}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;gap:60px;padding:100px 8%}
+.profile{width:320px;height:320px;border-radius:50%;overflow:hidden;border:5px solid #2563eb;box-shadow:0 0 40px rgba(37,99,235,.5);animation:float 4s infinite}
+.profile img{width:100%;height:100%;object-fit:cover}
+.hero h1{font-size:60px}
+.hero span{color:#60a5fa}
+.typing{font-size:28px;color:#94a3b8;height:40px}
+.btn{display:inline-block;margin:10px;padding:14px 28px;border-radius:40px;text-decoration:none;background:#2563eb;color:#fff}
+section{padding:90px 8%}
+.title{text-align:center;font-size:42px;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);padding:25px;border-radius:20px;backdrop-filter:blur(10px);transition:.3s}
+.card:hover{transform:translateY(-10px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.stat{text-align:center}
+.stat h2{color:#60a5fa}
+.timeline{border-left:3px solid #2563eb;padding-left:20px}
+.timeline .card{margin-bottom:20px}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;color:#fff;padding:15px 18px;border-radius:50%;font-size:24px;text-decoration:none}
+footer{text-align:center;padding:30px;background:#020617}
+@keyframes float{50%{transform:translateY(-15px)}}
+@media(max-width:768px){
+.hero{flex-direction:column;text-align:center}
+.hero h1{font-size:38px}
+.stats{grid-template-columns:repeat(2,1fr)}
+.profile{width:220px;height:220px}
+}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+
+<nav>
+<div class="logo">VS.</div>
+<div>React Native Developer</div>
+</nav>
+
+<section class="hero">
+<div class="profile">
+<img src="https://via.placeholder.com/600x600.png?text=Vikash+Singh" alt="Profile">
+</div>
+<div>
+<h1>Hi, I'm <span>Vikash Singh</span></h1>
+<div class="typing"></div>
+<p>React Native Developer with 1+ year experience building modern Android & iOS applications.</p>
+<a class="btn" href="#">Hire Me</a>
+<a class="btn" href="Vikash_Resume.pdf" download>Download Resume</a>
+</div>
+</section>
+
+<section>
+<div class="stats">
+<div class="card stat"><h2>1+</h2><p>Years Experience</p></div>
+<div class="card stat"><h2>10+</h2><p>Projects</p></div>
+<div class="card stat"><h2>100%</h2><p>Client Focus</p></div>
+<div class="card stat"><h2>React Native</h2><p>Specialist</p></div>
+</div>
+</section>
+
+<section>
+<h2 class="title">About Me</h2>
+<div class="card">
+React Native Developer skilled in API Integration, Redux Toolkit, Firebase, Android & iOS Deployment and UI/UX implementation.
+</div>
+</section>
+
+<section>
+<h2 class="title">Skills</h2>
+<div class="grid">
+<div class="card">React Native</div>
+<div class="card">JavaScript</div>
+<div class="card">Redux Toolkit</div>
+<div class="card">Firebase</div>
+<div class="card">REST APIs</div>
+<div class="card">UI/UX Design</div>
+<div class="card">Play Store Deployment</div>
+<div class="card">App Store Deployment</div>
+</div>
+</section>
+
+<section>
+<h2 class="title">Experience Timeline</h2>
+<div class="timeline">
+<div class="card"><h3>Web Masters Infotech</h3><p>React Native Developer</p></div>
+<div class="card"><h3>Desire Infotech</h3><p>React Native Intern</p></div>
+</div>
+</section>
+
+<section>
+<h2 class="title">Projects</h2>
+<div class="grid">
+<div class="card">Quotation Management App</div>
+<div class="card">Easy Reppo</div>
+<div class="card">Korat Films</div>
+<div class="card">Lucky Motor Driving</div>
+<div class="card">Bajrang Sena</div>
+<div class="card">Akka Event Booking</div>
+<div class="card">VG Stationary</div>
+<div class="card">Sweet Bite Bakery</div>
+<div class="card">Staff Management App</div>
+<div class="card">XV Player</div>
+</div>
+</section>
+
+<section>
+<h2 class="title">Contact</h2>
+<div class="card">
+<p><i class="fa-solid fa-phone"></i> 7701896497</p><br>
+<p><i class="fa-solid fa-envelope"></i> vksingh9924@gmail.com</p><br>
+<p><i class="fa-solid fa-location-dot"></i> Bengaluru, India</p><br>
+<p><i class="fa-brands fa-github"></i> GitHub</p>
+</div>
+</section>
+
+<a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+<footer>© 2026 Vikash Singh | React Native Developer</footer>
+
+<script>
+const texts=["React Native Developer","Mobile App Developer","Frontend Developer","Redux Toolkit Expert"];
+let i=0,j=0,deleting=false;
+const el=document.querySelector(".typing");
+function type(){
+let t=texts[i];
+el.textContent=t.substring(0,j);
+if(!deleting){j++;if(j>t.length){deleting=true;setTimeout(type,1000);return;}}
+else{j--;if(j<0){deleting=false;i=(i+1)%texts.length;}}
+setTimeout(type,deleting?50:100);
+}
+type();
+</script>
+</body>
+</html>
